@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
+import { LandingModule } from './landing/landing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LandingComponent } from './landing/landing.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule
+    RouterModule,
+    LandingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

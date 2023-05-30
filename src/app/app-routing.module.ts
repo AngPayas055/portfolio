@@ -4,7 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 const routes: Routes = [
-  // { path: '', component: HomeComponent },
+  { path: '', redirectTo: 'landing/landing', pathMatch: 'full' },
+  { path: 'landing', loadChildren: () => import('./landing/landing.module').then(m => m.LandingModule) },
   // Define other routes here
 ];
 
@@ -12,6 +13,7 @@ const routes: Routes = [
   declarations: [],
   imports: [
     CommonModule,
+    RouterModule.forRoot(routes)
   ]
 })
 export class AppRoutingModule { }
