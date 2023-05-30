@@ -6,9 +6,6 @@ import { LandingComponent } from './landing.component';
 const routes: Routes = [
   { path: '', redirectTo: 'landing', pathMatch: 'full' },
   { path: 'landing', component: LandingComponent },
-  // { path: 'security', loadChildren: () => import('./modules/security/security.module').then(m => m.SecurityModule) },
-  // { path: 'office', loadChildren: () => import('./modules/office/office.module').then(m => m.OfficeModule) },
-  // { path: 'interview', loadChildren: () => import('./modules/interview/interview.module').then(m => m.InterviewModule) }
 ];
 
 @NgModule({
