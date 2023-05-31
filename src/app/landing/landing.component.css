@@ -1,0 +1,48 @@
+body{
+    background-color: var(--bg-primary-color) !important;
+}
+.avatar{
+    max-width: 280px;
+}
+.j-cont{
+    background-color:  var(--tile-bg-color);
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+.head{
+    padding: 0 15px 0 40px;
+    width: 100%;
+}
+.text-highlight{
+    color: var(--highlight-color)
+}
+.action-card{
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+.title-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-links{
+    min-height: 25px;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 10px 10px 5px;
+    box-shadow: 0 2px 4px 1px rgba(0.2, 0.2, 0.2, 0.2); /* Box shadow property */
+    background-color: var(--tile-bg-color);
+    border: none;
+    border-radius: 5px;
+}
+.card-links:hover{
+    background-color: var(--bg-primary-color);
+}
+/* .label{
+    height: 25px;
+    padding-right: 10px;
+    vertical-align: middle;
+} */
