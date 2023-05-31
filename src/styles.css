@@ -1,4 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'oswald-bold';
+    src: url('../src/assets/Oswald-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'oswald-extralight';
+    src: url('../src/assets/Oswald-ExtraLight.ttf');
+  }
+  @font-face {
+    font-family: 'oswald-light';
+    src: url('../src/assets/Oswald-Light.ttf');
+  }
+  @font-face {
+    font-family: 'oswald-medium';
+    src: url('../src/assets/Oswald-Medium.ttf');
+  }
+  @font-face {
+    font-family: 'oswald-regular';
+    src: url('../src/assets/Oswald-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'oswald-semibold';
+    src: url('../src/assets/Oswald-SemiBold.ttf');
+  }
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
@@ -9,9 +34,9 @@ body{
 	--tile-bg-color:#FCFFE7; 
 	--font-bold-color:#290001;
 	--font-color:#87431D;
-	--highlight-color:#003366;
+	--highlight-color:#2e7de8;
 
-
+    background-color: var(--bg-primary-color);
 }
 
 body.dark-theme{
@@ -22,4 +47,47 @@ body.dark-theme{
 	--highlight-color:#FF00FF;
 
 
+}
+.j-cont-outer{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 15px;
+}
+h1{    
+    color: var(--font-bold-color);
+    font-family: 'oswald-light';
+    font-size: 34px;
+    margin: 5px 0;
+}
+h5{
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--font-color);
+    padding: 0;
+    margin: 2px;
+    font-weight: 400;
+}
+p{
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--font-color);
+}
+label{
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--font-color);
+}
+.bold-p{
+    color: var(--font-bold-color);
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* utilities */
+.ml-10{
+    margin-left: 10px;
 }
