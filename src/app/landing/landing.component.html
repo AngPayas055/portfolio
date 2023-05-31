@@ -12,13 +12,13 @@
                 <div class="action-cont">
                     <div class="action-card">
                         <mat-icon aria-hidden="false" aria-label="Example home icon" 
-                                    fontIcon="mail_outline"  [ngStyle]="{'color':'var(--font-color)'}">
+                                    fontIcon="mail_outline"  [ngStyle]="{'color':'var(--font-color)','font-size':'20px'}">
                         </mat-icon>
                         <h5 class="ml-10 text-highlight">jhonreymendiola@gmail.com</h5>
                     </div>
                     <div class="action-card">
                         <mat-icon aria-hidden="false" aria-label="Example home icon" 
-                                    fontIcon="stay_current_portrait"  [ngStyle]="{'color':'var(--font-color)'}">
+                                    fontIcon="stay_current_portrait"  [ngStyle]="{'color':'var(--font-color)','font-size':'20px'}">
                         </mat-icon>
                         <h5 class="ml-10 text-highlight">(+63)-9989-0247-051</h5>
                     </div>
@@ -33,12 +33,18 @@
                     If you need a <span class="bold-p">skilled Angular developer</span> to bring your ideas to life, I'm here to help.
                 </p>
             </div>
-            <div>
+            <div class="contact-cont">
                 <button class="card-links" onclick="window.open('https://github.com/AngPayas055', '_blank')">
-                    <mat-icon aria-hidden="false" aria-label="Example home icon"  
-                        fontIcon="github"  [ngStyle]="{'color':'var(--font-color)'}">
-                    </mat-icon>
+                    <i class="fa-brands fa-github icons-btn"></i>
                     <label class="label">Github</label>                    
+                </button>
+                <button class="card-links" onclick="window.open('https://www.linkedin.com/in/jhon-rey-mendiola-758685213/', '_blank')">
+                    <i class="fa-brands fa-linkedin icons-btn"></i>
+                    <label class="label">Linkedin</label>                    
+                </button>
+                <button class="card-links" onclick="window.open('https://drive.google.com/file/d/1lM0vIryWjvGVLm68ztrAhe2dvO4C_RAa/view?usp=sharing', '_blank')">
+                    <i class="fa-solid fa-file-pdf icons-btn"></i>
+                    <label class="label">Resume</label>                    
                 </button>
             </div>
         </div>
