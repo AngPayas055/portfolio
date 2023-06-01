@@ -22,6 +22,10 @@ body{
     text-align: center;
     margin-top: 15px;
 }
+
+.footer p {
+    word-wrap: break-word;
+  }
 .head{
     padding: 0 15px 0 40px;
     width: 100%;
@@ -166,6 +170,17 @@ body{
     line-height: 22px;
     font-weight: 400;
 }
+.view:hover{
+    padding: 7px 20px;
+    border-radius: 8px;
+    background-color: var(--tile-bg-color);
+    color:  var(--highlight-color) ;
+    border: 1px solid var(--highlight-color);
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+
+}
 .code{
     padding: 7px 20px;
     border-radius: 8px;
@@ -176,7 +191,24 @@ body{
     line-height: 22px;
     font-weight: 400;
 }
+.code:hover{
+    padding: 7px 20px;
+    border-radius: 8px;
+    background-color:  var(--highlight-color);
+    color:   var(--tile-bg-color);
+    border: none;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+}
 
+.footer p {
+    line-height: normal;
+  }
+  .footer-div{
+    display: flex;
+    flex-direction: column;
+  }
 
 @media screen and (max-width: 1001px){ 
     .proj-item{
@@ -239,5 +271,14 @@ body{
         margin-top: 15px;
         width: 100%;
         max-width: 370px;
+    }
+    .footer{
+        max-width: 340px;
+        margin: 15px auto;
+
+
+    }
+    .footer p {
+    white-space: normal;
     }
 }
