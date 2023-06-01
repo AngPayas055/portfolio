@@ -59,18 +59,32 @@ h1{
     font-size: 34px;
     margin: 5px 0;
 }
+h3{
+    font-size: 20px;
+    line-height: 22px;
+    color: var(--font-color);
+    padding: 0;
+    margin: 2px;
+    font-weight: 400;
+}
 h5{
     font-size: 18px;
     line-height: 27px;
     color: var(--font-color);
     padding: 0;
     margin: 2px;
-    font-weight: 400;
+    font-weight: 500;
 }
 p{
     font-size: 15px;
     line-height: 23px;
     color: var(--font-color);
+}
+.font-first{
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--font-color);
+  margin: 5px 0;
 }
 label{
     font-size: 15px;
@@ -88,6 +102,12 @@ label{
 
 
 /* utilities */
+.mt-15{
+  margin-top: 15px;
+}
 .ml-10{
     margin-left: 10px;
+}
+.ml-5{
+    margin-left: 5px;
 }
