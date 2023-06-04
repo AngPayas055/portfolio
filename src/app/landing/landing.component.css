@@ -310,6 +310,9 @@ body{
 
 
     }
+    .blue-round{
+        display: none;
+    }
     .footer p {
     white-space: normal;
     }
