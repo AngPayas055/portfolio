@@ -105,6 +105,13 @@ body{
     z-index: -10;
     border-radius: 50px;
 }
+.warning{
+    top: 20px;
+    border: 1px solid red;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
 .compplex-proj{
     background-color:  var(--tile-bg-color);
     border-radius: 10px;

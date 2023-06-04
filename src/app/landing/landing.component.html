@@ -191,6 +191,35 @@
                     </span>
                 </div>
             </div>
+            <div class="proj-cont">
+                <div class="proj-item">
+                    <div class="project-img-cont">
+                        <img src="../../assets/img/doc-portfolio.png" alt="" class="project-img">
+                        <div class="skills-container-proj">
+                            <span class="skills-item-proj">HTML5</span>
+                            <span class="skills-item-proj">CSS3</span>
+                            <span class="skills-item-proj">JavaScript</span>
+                            <span class="skills-item-proj">Responsive Design</span>
+                            <span class="skills-item-proj">Bootsrap</span>
+                            <span class="skills-item-proj">Git</span>
+                            <span class="skills-item-proj">Github</span>
+                        </div>
+                    </div>
+                    <span class="proj-item-details">
+                        <h2>Doc</h2>
+                        <p>Introducing Doc: <br>
+                            My debut webpage dedicated to medical and hospital information. 
+                            Discover healthcare services, facilities, and valuable insights. 
+                            Explore the world of medicine with Doc, your ultimate resource.
+                        </p>
+                        <div>
+                            <button class="view" (click)="openWraning()">View</button>
+                            <button class="code ml-10" onclick="window.open('https://github.com/AngPayas055/Project_Doctor', '_blank')">Code</button>
+                        </div>                        
+                        <div class="warning" *ngIf="warning == true">Website is currently under development.</div>
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
 
