@@ -86,6 +86,25 @@ body{
     padding: 15px;
 
 }
+.col-left-nlp{
+    background-color:  var(--tile-bg-color);
+    border-radius: 10px;
+    padding: 15px 15px 15px 0;
+
+}
+.relative{
+    position: relative;
+}
+.blue-round{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: var(--highlight-color);
+    right: -100px;
+    bottom: -100px;
+    z-index: -10;
+    border-radius: 50px;
+}
 .compplex-proj{
     background-color:  var(--tile-bg-color);
     border-radius: 10px;
@@ -99,6 +118,7 @@ body{
     align-items: center;
     max-width: 100%;
     overflow: hidden;
+    /* padding: 10px 0; */
 
 }
 .skills-item{
@@ -200,6 +220,11 @@ body{
     font-size: 17px;
     line-height: 22px;
     font-weight: 400;
+}
+.work-section{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .footer p {

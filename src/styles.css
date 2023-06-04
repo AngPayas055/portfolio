@@ -88,6 +88,11 @@ p{
     line-height: 23px;
     color: var(--font-color);
 }
+li{
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--font-color);
+}
 .font-first{
   font-size: 15px;
   line-height: 18px;
@@ -112,6 +117,9 @@ label{
 /* utilities */
 .mt-15{
   margin-top: 15px;
+}
+.ml-15{
+    margin-left: 15px;
 }
 .ml-10{
     margin-left: 10px;
